@@ -1,205 +1,173 @@
-Strategic Insights from Morrisons Supermarket’s Performance Dynamics
+# Morrisons Supermarket Sales and Profit Analysis
 
 
+<img width="1722" height="850" alt="Dashboard for Morrissons Supermarket" src="https://github.com/user-attachments/assets/d7dd4515-acae-43a0-b943-1b47d2badc8d" />
 
+## Overview
 
+This project presents a strategic analysis of sales and profit performance for Morrisons Supermarket over an eight-month period (January–August). The goal is to move beyond raw figures and deliver actionable insights that highlight key revenue drivers, operational inefficiencies, and opportunities for optimization.
 
+The analysis focuses on trends across time, regions, product categories, and payment methods using aggregated dashboard data.
 
+---
 
-<img width="1722" height="850" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/a5ded9cb-77e7-4bf9-8eaa-17565a73ec77" />
+## Problem Statement
 
+Retail performance is often driven by multiple factors, yet without structured analysis, it is difficult to identify:
 
+- Key revenue drivers  
+- Underperforming segments  
+- Regional imbalances  
+- Operational inefficiencies  
 
+This project addresses these gaps by analyzing sales data to support data-driven decision-making and strategy development.
 
+---
 
+## Objectives
 
+- Identify major revenue drivers across product categories and regions  
+- Analyze monthly sales trends and detect performance fluctuations  
+- Evaluate dependency on specific payment methods  
+- Highlight underperforming segments  
+- Provide actionable recommendations for revenue optimization  
 
+---
 
-Introduction
+## Dataset Description
 
+The dataset is aggregated and derived from a sales performance dashboard covering January to August.
 
-This report delivers a strategic Profit and Sales Analysis for Morrisons Supermarket covering the eight-month period (January to August). The core objective is to move beyond raw data, giving management a clear, actionable roadmap that pinpoints major profit sources like Electronics and North America, and crucial loss areas such as the mid-year sales decline. We analyzed significant trends across months, regions, and product categories using the dashboard's aggregated data. This ensures data-backed recommendations are provided to successfully optimize the sales and profit strategy for the upcoming year.
+### Key Variables
 
+- Monthly Sales (Revenue)  
+- Product Category (Electronics, Home Appliances, Clothing, etc.)  
+- Region (North America, Europe, Asia)  
+- Payment Method (Credit Card, Debit Card, PayPal)  
 
+### Key Metrics
 
+- Total Revenue: $76,512  
+- Top Region: North America ($36,844)  
+- Top Category: Electronics ($34,982)  
+- Lowest Sales Month: July ($6,797)  
+- Top Payment Method: Credit Card ($51,171)  
 
+---
 
+## Data Limitations
 
+- No year-over-year (YoY) data for trend comparison  
+- No transactional-level granularity  
+- Limited ability to assess seasonality or long-term growth patterns  
 
+---
 
-Story of Data
+## Analytical Approach
 
+The analysis was structured across four key areas:
 
+1. **Sales Trend Analysis**  
+   Evaluated monthly revenue performance to identify patterns and anomalies  
 
-The data is derived from the Morrisons Supermarket Performance Analysis dashboard, covering an eight-month period (January to August). It is summarized, aggregated data, not transactional. Key performance variables include:
+2. **Category Performance Analysis**  
+   Assessed revenue contribution across product categories  
 
-Sales Trend (Monthly Revenue: Jan to Aug).
+3. **Regional Analysis**  
+   Compared performance across geographic regions  
 
-Revenue by Product Category (Electronics, Home Appliances, etc.).
+4. **Payment Method Analysis**  
+   Examined revenue distribution across payment channels  
 
-Revenue by Region (Asia, Europe, North America).
+---
 
-Revenue by Payment Method (Credit Card, Debit Card, PayPal).
+## Key Insights
 
-A significant limitation is the absence of year-over-year (YoY) or long-term trend forecasting data, which prevents the assessment of growth stability or true seasonality.
+### 1. Revenue Concentration Risk
+Revenue is heavily concentrated in:
+- North America (largest regional contributor)  
+- Electronics category (dominant revenue source)  
+- Credit Card payments (primary transaction method)  
 
+This creates a dependency risk across multiple dimensions.
 
+---
 
+### 2. Sales Decline Trend
+A significant drop in sales was observed after April, with revenue declining steadily to its lowest point in July.
 
+This indicates potential:
+- Seasonal effects  
+- Operational inefficiencies  
+- Demand fluctuations  
 
+---
 
+### 3. Category Performance Imbalance
+- Electronics significantly outperforms all other categories  
+- Beauty Products and Books contribute minimal revenue  
 
+This suggests inefficiencies in product mix and inventory allocation.
 
+---
 
+### 4. Regional Imbalance
+North America generates nearly double the revenue of Europe, indicating uneven market performance and growth opportunities in underperforming regions.
 
-Data Aggregation and Preprocessing
+---
 
+### 5. Payment Method Dependency
+Over 50% of total revenue is generated via Credit Card, exposing the business to potential risks such as transaction fees or service disruptions.
 
-The data presented is already processed and aggregated for dashboard consumption.
+---
 
-Total Revenue (Dependent Variable): The sum of monthly sales from January to August is $76,512.
+## Dashboard
 
-Independent Variables: Month, Region, Product Category, and Payment Method.
+The analysis is supported by an interactive dashboard featuring:
 
-Industry Context: A Retail/Supermarket model, heavily reliant on high-value categories like Electronics and Home Appliances.
+- Monthly Sales Trend (Line Chart)  
+- Revenue by Product Category (Bar Chart)  
+- Payment Method Distribution (Pie Chart)  
 
+---
 
+## Tools and Technologies
 
+- Data Analysis: Microsoft Excel  
+- Data Visualization: Power BI / Excel Dashboard  
+- Data Source: Kaggle Dataset  
 
+---
 
+## Recommendations
 
+### 1. Address Sales Volatility
+Conduct a root cause analysis to identify factors behind the mid-year sales decline and implement corrective strategies.
 
+### 2. Diversify Revenue Streams
+Reduce reliance on Electronics by promoting and optimizing underperforming categories.
 
+### 3. Expand Regional Performance
+Replicate successful strategies from North America in Europe and Asia to improve overall balance.
 
-Pre-Analysis & In-Analysis
+### 4. Reduce Payment Dependency
+Encourage alternative payment methods through incentives to minimize reliance on Credit Card transactions.
 
+### 5. Optimize Product Portfolio
+Reallocate resources toward high-performing categories and reassess low-performing inventory.
 
-The initial analysis reveals several high-impact data points:
+---
 
-Regional Dominance: North America leads with a revenue of $36,844, nearly double that of the lowest-performing region, Europe ($18,392).
+## Conclusion
 
-Product Concentration: Electronics far surpasses all others, generating $34,982—more than the next two categories combined.
+This analysis highlights key revenue drivers, structural imbalances, and operational challenges within Morrisons’ sales performance.
 
-Sales Trend: A clear downward trend is observed post-April ($12,452), with a severe drop leading to the lowest month in July ($6,797).
+By addressing concentration risks, improving underperforming segments, and stabilizing sales trends, the business can achieve more sustainable and balanced growth.
 
-Payment Reliance: Credit Card dominates, accounting for $51,171 in revenue, indicating extreme reliance on a single payment method.
+---
+---
 
-High-Value Products: The Canon EOS R3 Camera ($3,900) and LG OLED TV ($2,600) are the highest value items, driving a significant portion of the Electronics revenue.
+## Contact
 
-
-
-
-
-
-
-
-
-Strategic Insights
-
-
-The analysis highlights a critical revenue concentration risk and operational challenge:
-
-Concentration Risk: Revenue is disproportionately reliant on three factors: the North America region, the Electronics category, and the Credit Card payment method. Failure or disruption in any of these areas will severely impact overall revenue.
-
-Operational Challenge: The severe and prolonged sales decline from April to July (a $5,655 drop) points to a seasonal weakness or operational failure that requires immediate root cause investigation.
-
-Hybrid Model: The business operates as a hybrid: high-margin, low-volume (Electronics/Home Appliances) and low-margin, high-volume (Clothing/Books, e.g., Hanes ComfortSoft T-Shirt is the top unit seller).
-
-
-
-
-
-
-
-
-
-Post-Analysis and Insights
-
-
-The in-depth review confirms the need for strategic re-focus:
-
-Underperforming Categories: Beauty Products ($2,622) and Books ($1,862) are the weakest performers by revenue, suggesting a review of inventory and shelf space allocation for these departments.
-
-Geographic Imbalance: The substantial revenue lead of North America over Europe ($36,844 vs. $18,392) confirms that successful strategies from North America must be localized and applied to the underperforming regions.
-
-Payment Dependency: The over-reliance on Credit Card (57% of total revenue) exposes the business to unnecessary fee increases or service outages.
-
-
-
-
-
-
-
-
-
-
-Visualizations
-
-
-The dashboard effectively uses key visuals:
-
-Line Chart (Monthly Sales Analysis): Clearly demonstrates the severe sales volatility and the steep downward trend post-April.
-
-Bar Chart (Product Category by Revenue): Visually emphasizes the overwhelming financial dominance of the Electronics category.
-
-Pie Chart (Payment Method Analysis): Immediately highlights the crucial dependency on the Credit Card payment method.
-
-
-
-
-
-
-
-
-
-Recommendations and Observations
-
-
-The following strategic actions are recommended to address risks and capitalize on growth opportunities:
-
-Address Sales Volatility: An Immediate Root Cause Analysis (RCA) must be conducted to investigate the specific factors driving the steep sales decline from April to July. This is crucial to prevent the recurrence of the $5,655 sales drop and stabilize quarterly revenue.
-
-Geographic Replication Strategy: Conduct a deep dive into successful sales and marketing campaigns, product mix, and regional leadership practices in North America and implement them in the lower-performing Europe and Asia markets. The goal is to mitigate reliance on a single region.
-
-Optimize Product Portfolio: Review the profitability of the weakest revenue categories, Books and Beauty Products. Consider reducing inventory or implementing targeted high-margin promotions for these items, allowing for the reallocation of shelf space and marketing budget to proven high-revenue drivers (Electronics, Home Appliances).
-
-Payment Risk Mitigation: Implement a campaign to encourage the use of secondary payment methods, such as offering small discounts or loyalty points for customers who use Debit Card or PayPal. This will reduce the single point of failure risk associated with the extreme reliance on Credit Card payments.
-
-Capitalize on High-Value Items: Ensure top revenue generators like the Canon EOS R3 Camera and LG OLED TV are adequately stocked and featured in marketing campaigns, as these high-ticket items are critical to maintaining the overall revenue level.
-
-
-
-
-
-
-
-
-
-Conclusion
-
-
-Morrisons' 2016 performance is defined by strong concentration in the Electronics category and the North America region, alongside a concerning and severe sales contraction during the summer months. Future strategy must focus on mitigating the mid-year sales decline and replicating the success of the high-performing regions and high-value product categories to ensure stable, profitable growth.
-
-
-
-
-
-
-
-
-References & Appendices
-
-
-References: Dataset from Kaggle.com and Microsoft Excel Documentation.
-
-Appendices: Key aggregated data points summarized from the dashboard:
-
-Total Revenue (Jan-Aug): $76,512
-
-Top Region: North America ($36,844)
-
-Top Category: Electronics ($34,982)
-
-Sales Low Point: July ($6,797)
-
-Top Payment Method: Credit Card ($51,171)
+- Email: modepetosin9@gmail.com  
+- LinkedIn: [Connect with Me](https://www.linkedin.com/in/ayodele-modupe-45481917a/)  
